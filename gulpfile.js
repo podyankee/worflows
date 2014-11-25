@@ -5,17 +5,34 @@ var gulp = require('gulp'),
     compass = require('gulp-compass'),
     connect = require('gulp-connect'),
     concat = require('gulp-concat');
+var env,
+    coffeeSources,
+    jsSources,
+    sassSources,
+    htmlSources,
+    jsonSources, 
+    outputDir;
 
-var coffeeSources = ['components/coffee/tagline.coffee'];
-var jsSources = [
+
+env = process.env.NODE.ENV || 'development';
+
+if (env==='development') {
+
+}
+else {
+  
+}
+
+coffeeSources = ['components/coffee/tagline.coffee'];
+ jsSources = [
   'components/scripts/rclick.js',
   'components/scripts/pixgrid.js',
   'components/scripts/tagline.js',
   'components/scripts/template.js'
 ];
-var sassSources = ['components/sass/style.scss'];
-var htmlSources = ['builds/development/*.html'];
-var jsonSources = ['builds/development/js/*.json'];
+sassSources = ['components/sass/style.scss'];
+htmlSources = ['builds/development/*.html'];
+jsonSources = ['builds/development/js/*.json'];
 
 gulp.task('coffee', function() {
   gulp.src(coffeeSources)
