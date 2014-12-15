@@ -1,0 +1,38 @@
+git --version
+
+node --version
+
+gem install sass
+
+gem install compass
+
+gem install compass --pre
+
+gem install breakpoint
+
+git clone https://github.com/planetoftheweb/responsive.git
+git clone -b ch01 https://github.com/planetoftheweb/responsive.git
+git clone -b start https://github.com/planetoftheweb/responsive.git
+npm install
+
+
+
+git init
+
+git add .
+git status
+git commit -m "First commit"
+git log
+git add .
+git commit -m "Added README.md file"
+git log
+git checkout 92d78ff5d6a2107a6d63a2269c0e8781bdd66016
+git branch
+git checkout master
+git status
+git remote add origin https://github.com/podyankee/worflows.git
+git push -u origin master
+
+npm install --save-dev gulp-concat
+
+set NODE_INV=production

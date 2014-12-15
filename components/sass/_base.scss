@@ -1,55 +1,50 @@
-// _base.scss
-// ==============
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather'); 
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
 body {
-  background: lighten($beige, 10%);
-  font-family: $bodyFont;
-  font-size: 1.1em;
+	font-family: $font-primary;
+	font-size: 1.2rem;
+	line-height: 160%;
+	background: $paleryellow;
+	color: $darkblue;
 }
- 
-#content {
-  color: $pink;
-  font-size: 2em;
-}
- 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  position: relative;
-}
- 
+
 #{headings()} {
-  font-family: $headFont;
-  font-size: 3em;
+	font-family: $font-secondary;
+	font-weight: normal;
+	color: $darkgray;
+	@include text-shadow($paleryellow 1px 1px);
 }
- 
 h1 {
-  font-size: 3.5em;
-  margin-bottom: 10px;
-  color: $green;
- 
-  @media (max-width: 700px) {
-    font-size: 2.2em;
-  }
+	font-size: 2.2rem;
+	color: #lighten($darkblue, 25);
+	margin-bottom: .4rem;
+	border-bottom: 1px solid $lightgray;
+	padding-top: 10px;
 }
- 
 h2 {
-  font-size: 1.5em;
-  color: $purple;
+	font-size: 1.5rem;
+	line-height: 100%;
+	margin: 20px 0 0 0;
+	color: $orange;
 }
- 
+h3 {
+	font-size: 1.8rem;
+	line-height: 60%;
+	color: $orange;
+}
+
+a {
+	text-decoration: underline;
+	color: $mediumgray;
+	&:hover {
+		color: $orange;
+	}
+}
 p {
-  font-size: 1.3em;
-  line-height: 1.5em;
-    color: $purple;
-  margin-bottom: 20px;
-    margin-top: 15px;
+	margin-bottom: 10px;
 }
- 
-section {
-  padding: 20px 0;
+.small {
+	font-size: 1rem;
+	color: $blue;
 }
- 
-.artgroup {
-    @include clearfix;
-} //artgroup

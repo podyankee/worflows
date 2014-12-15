@@ -1,25 +1,14 @@
 {
-  "name": "workflows",
+  "name": "sassy",
   "version": "0.0.1",
-  "description": "A project to showcase workflows",
+  "description": "testing responsive prolect",
   "repository": {
     "type": "git",
-    "url": "https://github.com/podyankee/workflows.git"
+    "url": "https://github.com/podyankee/worflows.git"
   },
   "author": "Kostya",
-  "devDependencies": {
-    "gulp": "^3.8.9",
-    "gulp-browserify": "^0.5.0",
-    "gulp-coffee": "^1.4.3",
-    "gulp-compass": "^1.1.9",
-    "gulp-concat": "^2.2.0",
-    "gulp-connect": "^2.2.0",
-    "gulp-if": "^1.2.5",
-    "gulp-jsonminify": "0.0.2",
-    "gulp-minify-html": "^0.1.7",
-    "gulp-uglify": "^1.0.1",
-    "gulp-util": "^2.2.14",
-    "jquery": "^2.1.1",
-    "mustache": "^0.8.1"
-  }
+  "bugs": {
+    "url": "https://github.com/podyankee/worflows/issues"
+  },
+  "homepage": "https://github.com/podyankee/worflows"
 }

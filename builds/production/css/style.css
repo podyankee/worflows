@@ -1,1 +1,320 @@
-@import "http://fonts.googleapis.com/css?family=Patua+One|Inika";body{background:#eddbba;font-family:"Inika",serif;font-size:1.1em}#content{color:#CC8E94;font-size:2em}.container{width:90%;max-width:1000px;margin:0 auto;position:relative}h1,h2,h3,h4,h5,h6{font-family:"Patua One",sans-serif;font-size:3em}h1{font-size:3.5em;margin-bottom:10px;color:#507356}@media (max-width: 700px){h1{font-size:2.2em}}h2{font-size:1.5em;color:#3E2B3D}p{font-size:1.3em;line-height:1.5em;color:#3E2B3D;margin-bottom:20px;margin-top:15px}section{padding:20px 0}.artgroup:after{content:"";display:table;clear:both}.city{background:url("../images/backgrounds/seattle_skyline.jpg") no-repeat 50% 20%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out}@media (min-width: 801px){.city{height:350px}}@media (max-width: 800px){.city{height:150px}}@media (max-width: 300px){.city{height:100px}}.city img.logo{position:absolute;right:0;top:0;width:50%;max-width:450px;min-width:250px}.featuredartists{background:#8D8862;border-top:20px solid #E3C691;border-bottom:50px solid #507356}.featuredartists h1{font-size:3em;color:#263729}@media (max-width: 700px){.featuredartists h1{font-size:2em}}.featuredartists h2{margin-top:20px;font-size:1.8em;color:#dbb570}@media (max-width: 700px){.featuredartists h2{display:none}}.featuredartists p{color:#314634}.featuredartists .artistlist{padding-bottom:20px}.featuredartists .artistlist h2{margin-top:5px;font-size:1.2em;color:#ebd7b2}.featuredartists .artistlist .item{min-width:95px;color:#6f6b4d;width:18%;float:left;padding:1%;text-align:center;position:relative}.featuredartists .artistlist .item>img{max-width:130px;margin:0 auto;display:block;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;width:100%}.potterypix{background:url("../images/backgrounds/pottery_workshop.jpg") no-repeat 50% 20%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;border-bottom:50px solid #8D8862}@media (min-width: 801px){.potterypix{height:350px}}@media (max-width: 800px){.potterypix{height:150px}}@media (max-width: 300px){.potterypix{height:100px}}.aboutvenue img{float:right}.workshoppix{background:url("../images/backgrounds/woodworking_workshop.jpg") no-repeat 50% 20%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;border-bottom:50px solid #8D8862}@media (min-width: 801px){.workshoppix{height:350px}}@media (max-width: 800px){.workshoppix{height:150px}}@media (max-width: 300px){.workshoppix{height:100px}}.ontour h1{color:#4d354c;font-size:3em;bottom:10px;right:10%}.ontour h2{font-size:1.8em;color:#8D8862;border-top:1px solid #8D8862;padding-top:5px}.ontour h3{font-size:1.3em;color:#6b4a69;padding-bottom:5px}.ontour img{float:right;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;padding-left:20px;width:20%;min-width:120px;max-width:160px}.pixgrid img{max-width:90px;display:block;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;padding:0 5px 5px 0;cursor:url(../images/misc/magnifying_glass.png),auto}.pixgrid .preview img{padding:0}.rclick .item{display:block;float:left}.rclick .item img{-moz-border-radius:none;-webkit-border-radius:none;border-radius:none}.rclick .preview{position:relative}.rclick .preview img{position:absolute;z-index:90;max-width:400px;display:block;border:1px solid #FCF4DC;margin:0;-moz-border-radius:none;-webkit-border-radius:none;border-radius:none;-moz-box-shadow:#000 5px 5px 12px;-webkit-box-shadow:#000 5px 5px 12px;box-shadow:#000 5px 5px 12px}
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/* line 5, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../components/sass/_base.scss */
+body {
+  font-family: Merrweather, serif;
+  font-size: 1.2rem;
+  line-height: 160%;
+  background: #FCF4DC;
+  color: #0A2933;
+}
+
+/* line 12, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Breeserif, serif;
+  font-weight: normal;
+  color: #475B62;
+  text-shadow: #FCF4DC 1px 1px;
+}
+
+/* line 18, ../components/sass/_base.scss */
+h1 {
+  font-size: 2.2rem;
+  color: #lighten #0A2933, 25;
+  margin-bottom: .4rem;
+  border-bottom: 1px solid #819090;
+  padding-top: 10px;
+}
+
+/* line 25, ../components/sass/_base.scss */
+h2 {
+  font-size: 1.5rem;
+  line-height: 100%;
+  margin: 20px 0 0 0;
+  color: #BD3613;
+}
+
+/* line 31, ../components/sass/_base.scss */
+h3 {
+  font-size: 1.8rem;
+  line-height: 60%;
+  color: #BD3613;
+}
+
+/* line 37, ../components/sass/_base.scss */
+a {
+  text-decoration: underline;
+  color: #536870;
+}
+/* line 40, ../components/sass/_base.scss */
+a:hover {
+  color: #BD3613;
+}
+
+/* line 44, ../components/sass/_base.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 47, ../components/sass/_base.scss */
+.small {
+  font-size: 1rem;
+  color: #2176C7;
+}
+
+/* line 14, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../components/sass/_layout.scss */
+.layout {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3%;
+}
+/* line 12, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.layout:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 19, ../components/sass/_layout.scss */
+.layout .primary {
+  margin-top: .2em;
+}
+@media (min-width: 47em) {
+  /* line 19, ../components/sass/_layout.scss */
+  .layout .primary {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 24, ../components/sass/_layout.scss */
+  .layout .primary #nextmeeting {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: #EAE3CB;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0 20px 20px 20px;
+    background: #259286;
+  }
+  /* line 31, ../components/sass/_layout.scss */
+  .layout .primary #nextmeeting h1 {
+    color: #00b2b3;
+    border: none;
+    text-shadow: none;
+    margin-bottom: 20px;
+  }
+  /* line 37, ../components/sass/_layout.scss */
+  .layout .primary #nextmeeting a {
+    color: #0A2933;
+  }
+}
+@media (min-width: 47em) {
+  /* line 45, ../components/sass/_layout.scss */
+  .layout .secondary {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+    font-size: 1.1rem;
+  }
+  /* line 49, ../components/sass/_layout.scss */
+  .layout .secondary h1 {
+    font-size: 1.8rem;
+    color: #BD3613;
+  }
+}
+
+/* line 62, ../components/sass/_layout.scss */
+header img {
+  width: 95%;
+  margin: 2.5%;
+  min-width: 500px;
+  margin-bottom: 0;
+}
+/* line 69, ../components/sass/_layout.scss */
+header .hero {
+  width: 100%;
+}
+@media (min-width: 47em) {
+  /* line 69, ../components/sass/_layout.scss */
+  header .hero {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 450px;
+    background: url('../builds/development/images/speakers/Hillary_Goldwynn_tn.jpg?1368992100');
+  }
+}
+
+/* line 81, ../components/sass/_layout.scss */
+.navigation {
+  background: #175c73;
+}
+/* line 85, ../components/sass/_layout.scss */
+.navigation ul.nav li i {
+  color: #f7b71a;
+  padding-right: .5em;
+}
+/* line 89, ../components/sass/_layout.scss */
+.navigation ul.nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #FCF4DC;
+}
+
+/* line 99, ../components/sass/_layout.scss */
+footer {
+  color: #FCF4DC;
+  background: #0d3340;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+/* line 3, ../components/sass/_modules.scss */
+.speakers .artist {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 5, ../components/sass/_modules.scss */
+.speakers .artist h3 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #819090;
+  margin-bottom: 5px;
+}
+/* line 11, ../components/sass/_modules.scss */
+.speakers .artist img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 24, ../components/sass/_modules.scss */
+#nextmeeting {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 26, ../components/sass/_modules.scss */
+#nextmeeting img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 130px;
+  float: left;
+  margin-right: 3%;
+}
+
+/* line 38, ../components/sass/_modules.scss */
+.socialmediaicons .title {
+  float: left;
+}
+/* line 41, ../components/sass/_modules.scss */
+.socialmediaicons ul {
+  float: left;
+}
+/* line 43, ../components/sass/_modules.scss */
+.socialmediaicons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 46, ../components/sass/_modules.scss */
+.socialmediaicons ul li img {
+  width: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 56, ../components/sass/_modules.scss */
+.pixgrid {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 58, ../components/sass/_modules.scss */
+.pixgrid img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 30%;
+  max-width: 120px;
+  cursor: pointer;
+}
